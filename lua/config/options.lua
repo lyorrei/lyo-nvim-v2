@@ -130,3 +130,6 @@ vim.g.rustaceanvim = {
     end,
   },
 }
+
+-- Disable auto format
+vim.g.autoformat = false
