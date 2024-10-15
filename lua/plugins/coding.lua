@@ -166,8 +166,6 @@ return {
     cmd = { "QL" },
   },
 
-  { "wakatime/vim-wakatime", event = "VeryLazy" },
-
   {
     "andymass/vim-matchup",
     event = "BufReadPost",

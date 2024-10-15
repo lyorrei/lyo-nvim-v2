@@ -17,6 +17,10 @@ vim.keymap.set("n", "<right>", "<C-w>l")
 -- change word with <c-c>
 vim.keymap.set("n", "<C-c>", "<cmd>normal! ciw<cr>a")
 
+-- Center screen when scrolling up and down
+vim.keymap.set("n", "<C-d>", "<C-d>zz")
+vim.keymap.set("n", "<C-u>", "<C-u>zz")
+
 -- htop
 if vim.fn.executable("htop") == 1 then
   vim.keymap.set("n", "<leader>xh", function()
