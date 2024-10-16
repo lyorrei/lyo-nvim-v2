@@ -3,6 +3,8 @@ return {
   event = "VeryLazy",
   dependencies = {
     { "rcarriga/nvim-dap-ui", config = true },
+    { "nvim-neotest/nvim-nio" },
+
     { "theHamsta/nvim-dap-virtual-text", config = true },
     { "mfussenegger/nvim-dap-python" },
     { "Pocco81/dap-buddy.nvim" },

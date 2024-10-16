@@ -451,7 +451,7 @@ return {
     dependencies = {
       "SmiteshP/nvim-navic",
     },
-    config = true,
+    -- config = true,
   },
 
   -- {
